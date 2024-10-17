@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/homepage.css";
 
 export const Metadata = {
   title: "Next.js Portfolio",
