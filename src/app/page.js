@@ -1,9 +1,8 @@
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin, AiFillFacebook} from 'react-icons/ai';
 import Image from 'next/image';
-import myEmoji from "../../public/images/myEmoji.png";
+import { myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextJSICon, pythonIcon, reactIcon, tailwind } from "../../public/helpers/images";
 import { LoremIpsum } from 'react-lorem-ipsum';
-import { SearchParamsContext } from 'next/dist/shared/lib/hooks-client-context.shared-runtime';
 
 
 export default function Home() {
@@ -45,16 +44,49 @@ export default function Home() {
         {/* Second Page */}
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Services I offer:</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>
-              <LoremIpsum p={1} /> <span className='text-teal-500'>some highlighted text</span><LoremIpsum p={1} />
-            </p>
-            <p className='text-md py-5 leading-8 text-gray-800'>
-              <LoremIpsum p={1} /> <span className='text-teal-500'>some highlighted text</span><LoremIpsum p={1} />
-            </p>
-          </div>
-          <div>
-            <Image src=
+            <h3 className='text-3xl py-1 '>The Main Dev Tools I Have Experience With:</h3>
+            <div className='flex justify-between text-md py-5 leading-8 w-100%'>
+              <div>
+               <h4 className='text-center font-bold text-teal-500'>React</h4>
+                <Image className="icon" src={reactIcon} alt="Icon" />
+              </div>
+              <div>
+                <h4 className='text-center font-bold text-teal-500'>Flask</h4>
+                <Image className="icon" src={flaskIcon} alt="Icon" />
+              </div>
+              <div>
+                <h4 className='text-center font-bold text-teal-500'>C</h4>
+                <Image className="icon" src={cIcon} alt="Icon" />
+              </div>
+              <div>
+                <h4 className='text-center font-bold text-teal-500'>Github</h4>
+                <Image className="icon" src={githubIcon} alt="Icon" />  
+              </div>
+              <div>
+                <h4 className='text-center font-bold text-teal-500'>HTML</h4>
+                <Image className="icon" src={html} alt="Icon" />
+              </div>
+              <div>
+               <h4 className='text-center font-bold text-teal-500'>Next.js</h4>
+                <Image className="icon" src={nextJSICon} alt="Icon" />
+              </div>
+              <div>
+                <h4 className='text-center font-bold text-teal-500'>MySQL</h4>
+                <Image className="icon" src={mysqlIcon} alt="Icon" />
+              </div>
+              <div>
+                <h4 className='text-center font-bold text-teal-500'>Python</h4>
+                <Image className="icon" src={pythonIcon} alt="Icon" />
+              </div>
+              <div>
+               <h4 className='text-center font-bold text-teal-500'>Tailwind</h4>
+                <Image className="icon" src={tailwind} alt="Icon" />
+              </div>
+            </div>
+              <p className='text-md py-5 leading-8 text-gray-800'>
+              </p>
+              <LoremIpsum p={1} /> <span className='text-teal-500'>some highlighted text</span>
+              <LoremIpsum p={1} />
           </div>
         </section>
       </main>
