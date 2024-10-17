@@ -1,0 +1,7 @@
+main {
+  .homepage-img {
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+  }
+}
