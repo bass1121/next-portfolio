@@ -8,5 +8,8 @@ import nextJSICon from "../images/nextJSICon.png";
 import pythonIcon from "../images/pythonIcon.png"; 
 import reactIcon from "../images/reactIcon.png"; 
 import tailwind from "../images/tailwind.png"; 
+import flaskPortfolio from "../images/flaskPortfolio.png"; 
+import flaskPortfolioCode from "../images/flaskPortfolioCode.png"; 
+import nextPortfolio from "../images/nextPortfolio.png"; 
 
-export { myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextJSICon, pythonIcon, reactIcon, tailwind };
+export { myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextJSICon, pythonIcon, reactIcon, tailwind, flaskPortfolio, flaskPortfolioCode, nextPortfolio };
