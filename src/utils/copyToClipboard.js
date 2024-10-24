@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react";
 // FontAwesome
-import { faCopy } from "../../public/helpers/icons";
+import { faCopy } from "../utils/icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function CopyToClipboard() {
@@ -29,7 +29,7 @@ export default function CopyToClipboard() {
     <div>
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <button onClick={handleCopy}>
-          <FontAwesomeIcon icon={faCopy} />
+          <FontAwesomeIcon icon={faCopy} className="dark:text-white"/>
         </button>
       </div>
       

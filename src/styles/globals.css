@@ -12,14 +12,19 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 
-  .icon {
-    @apply w-12 h-10 m-4;
-  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .icon-title {
+    @apply text-center text-2xl font-bold text-teal-500;
+  }
+
+  .icon {
+    @apply w-14 h-12 m-4 place-self-center ;
   }
 }
 
