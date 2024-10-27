@@ -11,6 +11,7 @@ import tailwind from "../../public/images/tailwind.png";
 import flaskPortfolio from "../../public/images/flaskPortfolio.png"; 
 import flaskPortfolioCode from "../../public/images/flaskPortfolioCode.png"; 
 import nextPortfolio from "../../public/images/nextPortfolio.png"; 
-import elleBee from "../../public/images/elleBeeOriginal.png"
+import elleBee from "../../public/images/elleBeeOriginal.png";
+
 
 export { myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextJSICon, pythonIcon, reactIcon, tailwind, flaskPortfolio, flaskPortfolioCode, nextPortfolio, elleBee };

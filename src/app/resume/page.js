@@ -1,7 +1,8 @@
-import ThemeSwitcher from "@/ThemeSwitcher";
+import ThemeSwitcher from "@/utils/ThemeSwitcher";
 import CopyToClipboard from "@/utils/copyToClipboard";
+import Image from "next/image";
+import { resume1, resume2 } from "@/utils/resumeExp";
 import "../../styles/resume.css";
-import "../../styles/global.css";
 
 export default function Resume() {
   return (
@@ -21,8 +22,9 @@ export default function Resume() {
             </ul>
         </nav>
 
-        <div className="h-full">
-          resume
+        <div className=" place-items-center">
+          <Image src={resume2} priority className="resumeImage w-2/4 shadow-lg mb-4 dark:shadow-teal-300 rounded-xl"  alt="resume0"/>
+          <Image src={resume1} priority className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
         </div>
     </div>
   );

@@ -4,7 +4,7 @@ import {
   myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextJSICon, pythonIcon, reactIcon, tailwind, flaskPortfolio, flaskPortfolioCode, nextPortfolio, elleBee
 } from "../utils/images";
 import CopyToClipboard from '../utils/copyToClipboard'
-import ThemeSwitcher from '@/ThemeSwitcher';
+import ThemeSwitcher from '@/utils/ThemeSwitcher';
 
 
 export default function Home() {
@@ -14,12 +14,12 @@ export default function Home() {
           <section className="min-h-screen" >
             <nav className="navbar grid grid-rows-2 py-10 font-mono sm:flex sm:justify-between sm:py-10 sm:mb-12">
               <div className='flex space-x-3 sm:flex sm:space-x-3 sm:justify-evenly'>
-                <h1 className="text-2xl mb-4 dark:text-gray-300">seanbass99@gmail.com</h1>
-                <CopyToClipboard /> 
+                <h1 className="text-lg sm:text-2xl mb-4 dark:text-gray-300">seanbass99@gmail.com</h1>
+                <CopyToClipboard placeholder="blur" /> 
               </div>
               <ul className="flex  sm:flex-row sm:flex sm:items-center">
                 <li>
-                  <ThemeSwitcher />
+                  <ThemeSwitcher placeholder="blur" />
                 </li>
                 <li>
                   <a href="/resume" className="bg-gradient-to-r text-2xl from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-4">Resume</a>
@@ -108,7 +108,7 @@ export default function Home() {
                       A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
-                    <h4 className='py-4 text-2xl text-teal-300 dark:text-teal-300'>Tools used:</h4>
+                    <h4 className='py-4 font-medium text-2xl dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>Flask</p>
                     <p className='text-gray-800 py-1'>Python</p>
                     <p className='text-gray-800 py-1'>MySQL</p>
@@ -123,7 +123,7 @@ export default function Home() {
                       A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
-                    <h4 className='py-4 text-2xl text-teal-600 dark:text-teal-300'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl  text-teal-600 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>Flask</p>
                     <p className='text-gray-800 py-1'>Python</p>
                     <p className='text-gray-800 py-1'>MySQL</p>
@@ -138,7 +138,7 @@ export default function Home() {
                       A website created for ElleBee Entertainment, a company that creates content on social media. Consists of links to all of her social media accounts, admin login and edit, a blog page
                       and links to donate to channels. It dynamically updated video list pulling from youtube's api. 
                     </p>
-                    <h4 className='py-4 text-2xl text-teal-600 dark:text-teal-300'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl font-medium text-teal-600 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>React</p>
                     <p className='text-gray-800 py-1'>MongoDB</p>
                     <p className='text-gray-800 py-1'>SCSS</p>
@@ -152,7 +152,7 @@ export default function Home() {
                       A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
-                    <h4 className='py-4 text-2xl text-teal-600 dark:text-teal-300'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl font-medium text-teal-600 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>Flask</p>
                     <p className='text-gray-800 py-1'>Python</p>
                     <p className='text-gray-800 py-1'>MySQL</p>

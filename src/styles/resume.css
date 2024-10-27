@@ -4,20 +4,29 @@
 
 
 @layer utilities {
-}
+  .moon {
+    @media (max-width: 1026px) {
+      right: 80px;
+      top: 90px;
+    }
+  }
+
   .resume {
     
     .navbar {
-        @media (max-width: 1024px) {
+      @media (max-width: 1024px) {
         margin-right: 20px;
       }
     }
-  
-    .moon {
-      @media (max-width: 1024px) {
-        top: 90px;
-        display: block;
+    
+    .resumeImage {
+      @media (max-width: 2000px) {
+        width: 80%;
+      }
+      
+      @media (max-width: 1270px) {
+        width: 100vw;
       }
     }
-    
   }
+}
