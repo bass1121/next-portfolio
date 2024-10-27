@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .icon-title {
+    @apply 
+      text-center 
+      text-2xl 
+      font-bold 
+      text-teal-500;
+      
+    @media (max-width: 400px) {
+      font-size: 1em;
+    }
+  }
+
+  .navbar {
+    @media (max-width: 1024px) {
+      margin-right: 20px;
+    }
+  }
+  
+  .moon {
+    @media (max-width: 1024px) {
+      top: 90px;
+      display: block;
+    }
+  }
+
+  .icon {
+      @apply 
+        w-14
+        h-12 
+        m-4 
+        place-self-center 
+        dark:bg-white 
+        dark:p-2;
+
+  }
+
+  .card {
+    @apply 
+      text-lg
+      w-3/5 
+      sm:w-3/5 
+      text-center 
+      shadow-lg 
+      p-10 
+      rounded-xl 
+      my-10 
+      hover:w-10/12 
+      duration-100
+      hover:bg-sky-400 
+      dark:text-gray-400 
+      dark:bg-slate-500
+      dark:hover:bg-slate-400
+      dark:shadow-teal-200;
+  }
+}
+
+
+

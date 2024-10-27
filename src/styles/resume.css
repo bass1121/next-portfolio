@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+}
+  .resume {
+    
+    .navbar {
+        @media (max-width: 1024px) {
+        margin-right: 20px;
+      }
+    }
+  
+    .moon {
+      @media (max-width: 1024px) {
+        top: 90px;
+        display: block;
+      }
+    }
+    
+  }

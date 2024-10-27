@@ -1,4 +1,3 @@
-import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin, AiFillFacebook} from 'react-icons/ai';
 import Image from 'next/image';
 import { 
@@ -13,25 +12,25 @@ export default function Home() {
     <div>
         <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
           <section className="min-h-screen" >
-            <nav className="grid grid-rows-2 py-10 font-mono sm:flex sm:justify-between sm:py-10 sm:mb-12">
+            <nav className="navbar grid grid-rows-2 py-10 font-mono sm:flex sm:justify-between sm:py-10 sm:mb-12">
               <div className='flex space-x-3 sm:flex sm:space-x-3 sm:justify-evenly'>
-                <h1 className="text-xl mb-4 dark:text-white">seanbass99@gmail.com</h1>
+                <h1 className="text-2xl mb-4 dark:text-gray-300">seanbass99@gmail.com</h1>
                 <CopyToClipboard /> 
               </div>
-              <ul className="flex flex-row-reverse justify-between sm:flex-row sm:flex sm:items-center">
+              <ul className="flex  sm:flex-row sm:flex sm:items-center">
                 <li>
                   <ThemeSwitcher />
                 </li>
                 <li>
-                  <a href="#" className="bg-gradient-to-r text-xl from-cyan-500 to-teal-500 text-white px-4 rounded-md ml-4">Resume</a>
+                  <a href="/resume" className="bg-gradient-to-r text-2xl from-cyan-500 to-teal-500 text-white px-5 rounded-md ml-4">Resume</a>
                 </li>
               </ul>
             </nav>
 
             <div className='text-center p-10'>
               <h2 className='text-5xl py-2 text-teal-500 font-medium'>Sean Bass</h2>
-              <h3 className='text-2xl py-2 dark:text-white'>Developer and Designer</h3>
-              <p className='text-lg py-5 leading-8 text-gray-800 dark:text-white'>
+              <h3 className='text-2xl py-2 dark:text-gray-300'>Developer and Designer</h3>
+              <p className='text-lg py-5 leading-8 text-gray-800 dark:text-gray-300'>
                 A Junior Developer with Full Stack Certification from Bottega University along with CS-50 certifications. I currently work as a manager/producer for a social media company. I am self motivated, 
                 I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
                 and finding solutions to problems.
@@ -42,7 +41,7 @@ export default function Home() {
                 <a href="https://github.com/bass1121"><AiFillGithub/></a>
               </div>
             </div>
-            <div className='relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-60 h-60 sm:w-80 sm:h-80 mt-10 overflow-hidden'>
+            <div className='relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-60 h-60 sm:w-90 sm:h-90 mt-10 overflow-hidden'>
               <Image className="" src={myEmoji} alt="myEmoji" placeholder='blur'/>
             </div>
           </section>
@@ -89,7 +88,7 @@ export default function Home() {
                   <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
               </div>
-                <p className='text-lg py-5 leading-8 text-gray-800'>
+                <p className='text-lg py-5 leading-8 text-gray-800 dark:text-gray-300'>
                 A Junior Developer with Full Stack Certification from Bottega University along with CS-50 certifications. I currently work as a manager/producer for a social media company. I am self motivated, 
                 I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
                 and finding solutions to problems.<span className='text-teal-500 text-lg'>some highlighted text</span>
@@ -102,14 +101,14 @@ export default function Home() {
             <div className='m-2 sm:m-20'>
                 <h2 className='text-3xl'>Examples of previous work:</h2>
               <div className='place-items-center justify-items-center'>
-                <div id="card1" className='text-lg w-6/7 sm:w-4/5 text-center shadow-lg p-10 rounded-xl my-10 hover:w-10/12 hover:bg-sky-200 '>
+                <div id="card" className='card'>
                     <Image className='w-auto mx-auto border' src={flaskPortfolio} alt='flask pic'/>
-                    <h3 className='text-lg font-medium pt-8 pb-2'>Flask Portfolio Website</h3>
-                    <p className='py-2'>
+                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Flask Portfolio Website</h3>
+                    <p className='py-2 text-gray-800'>
                       A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
-                    <h4 className='py-4 text-teal-600'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl text-teal-300 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>Flask</p>
                     <p className='text-gray-800 py-1'>Python</p>
                     <p className='text-gray-800 py-1'>MySQL</p>
@@ -117,14 +116,14 @@ export default function Home() {
                     <p className='text-gray-800 py-1'>Werkzeug Security</p>
                 </div>
 
-                <div id="card2" className='text-lg w-6/7 sm:w-4/5 text-center shadow-lg p-10 rounded-xl my-10 hover:w-10/12 hover:bg-sky-200 '>
+                <div id="card" className='card'>
                     <Image className='mx-auto w-auto border' src={nextPortfolio} alt='flask pic'/>
-                    <h3 className='text-lg font-medium pt-8 pb-2'>Next.js Personal Portfolio</h3>
-                    <p className='py-2'>
+                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Next.js Personal Portfolio</h3>
+                    <p className='py-2 dark:text-gray-800'>
                       A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
-                    <h4 className='py-4 text-teal-600'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl text-teal-600 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>Flask</p>
                     <p className='text-gray-800 py-1'>Python</p>
                     <p className='text-gray-800 py-1'>MySQL</p>
@@ -132,28 +131,28 @@ export default function Home() {
                     <p className='text-gray-800 py-1'>Werkzeug Security</p>
                 </div>
 
-                <div id="card3" className='text-lg w-6/7 sm:w-4/5 text-center shadow-lg p-10 rounded-xl my-10 hover:w-10/12 hover:bg-sky-200 '>
+                <div id="card" className='card'>
                     <Image className='mx-auto w-auto border' src={elleBee} alt='flask pic'/>
-                    <h3 className='text-lg font-medium pt-8 pb-2'>Next.js Personal Portfolio</h3>
-                    <p className='py-2'>
+                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Next.js Personal Portfolio</h3>
+                    <p className='py-2 dark:text-gray-800'>
                       A website created for ElleBee Entertainment, a company that creates content on social media. Consists of links to all of her social media accounts, admin login and edit, a blog page
                       and links to donate to channels. It dynamically updated video list pulling from youtube's api. 
                     </p>
-                    <h4 className='py-4 text-teal-600'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl text-teal-600 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>React</p>
                     <p className='text-gray-800 py-1'>MongoDB</p>
                     <p className='text-gray-800 py-1'>SCSS</p>
                     <p className='text-gray-800 py-1'>Visual Studio Code</p>
                 </div>
 
-                <div id="card4" className='text-lg w-6/7 sm:w-4/5 text-center shadow-lg p-10 rounded-xl my-10 hover:w-10/12 hover:bg-sky-200 '>
+                <div id="card" className='card'>
                     <Image className='mx-auto w-auto border' src={nextPortfolio} alt='flask pic'/>
-                    <h3 className='text-lg font-medium pt-8 pb-2'>Next.js Personal Portfolio</h3>
-                    <p className='py-2'>
+                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Next.js Personal Portfolio</h3>
+                    <p className='py-2 dark:text-gray-800'>
                       A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
-                    <h4 className='py-4 text-teal-600'>Tools used:</h4>
+                    <h4 className='py-4 text-2xl text-teal-600 dark:text-teal-300'>Tools used:</h4>
                     <p className='text-gray-800 py-1'>Flask</p>
                     <p className='text-gray-800 py-1'>Python</p>
                     <p className='text-gray-800 py-1'>MySQL</p>
@@ -161,11 +160,6 @@ export default function Home() {
                     <p className='text-gray-800 py-1'>Werkzeug Security</p>
                 </div>
               </div>
-            </div>
-          </section>
-          <section>
-            <div>
-              <h3 className='text-3xl py-1'>Portfolio</h3>
             </div>
           </section>
         </main>
