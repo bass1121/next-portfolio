@@ -4,15 +4,8 @@
 
 
 @layer utilities {
-  .moon {
-    @media (max-width: 1026px) {
-      right: 80px;
-      top: 90px;
-    }
-  }
 
   .resume {
-    
     .navbar {
       @media (max-width: 1024px) {
         margin-right: 20px;

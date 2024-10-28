@@ -14,8 +14,8 @@ const ThemeSwitcher = () => {
 
   return mount ? (
     <button onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")} type="button" className='dark:border-slate-300 dark:text-white'>
-      <BsFillMoonStarsFill className="moon fixed text-4xl sm:text-4xl dark:hidden" />  
-      <BsFillMoonStarsFill className="moon fixed text-4xl hidden sm:text-4xl dark:block" />
+      <BsFillMoonStarsFill className="moon fixed top-1 sm::top-1 right-2 text-2xl sm:text-3xl dark:hidden" />  
+      <BsFillMoonStarsFill className="moon fixed top-1 sm:top-1 right-2 text-2xl hidden sm:text-3xl dark:block" />
     </button>
   ) : null;
 };

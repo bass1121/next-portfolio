@@ -29,7 +29,7 @@ export default function CopyToClipboard() {
     <div>
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <button onClick={handleCopy}>
-          <FontAwesomeIcon icon={faCopy} className="text-2xl dark:text-gray-400"/>
+          <FontAwesomeIcon icon={faCopy} placeholder="blur" className="sm:text-2xl dark:text-gray-400"/>
         </button>
       </div>
       
