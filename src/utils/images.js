@@ -4,7 +4,7 @@ import flaskIcon from "../../public/images/flaskIcon.png";
 import githubIcon from "../../public/images/githubIcon.png";
 import html from "../../public/images/html.png";
 import mysqlIcon from "../../public/images/mysqlIcon.png"; 
-import nextJSICon from "../../public/images/nextjs.png"; 
+import nextjs from "../../public/images/nextjs.png"; 
 import pythonIcon from "../../public/images/pythonIcon.png"; 
 import reactIcon from "../../public/images/reactIcon.png"; 
 import tailwind from "../../public/images/tailwind.png"; 
