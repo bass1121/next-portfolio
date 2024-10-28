@@ -1,7 +1,7 @@
 import ThemeSwitcher from "@/utils/ThemeSwitcher";
 import CopyToClipboard from "@/utils/copyToClipboard";
 import Image from "next/image";
-import { resume1, resume2 } from "@/utils/resumeExp";
+import { resume0, resume1 } from "../../utils/resumeExp";
 import "../../styles/resume.css";
 
 export default function Resume() {
@@ -23,9 +23,16 @@ export default function Resume() {
         </nav>
 
         <div className=" place-items-center">
-          <Image src={resume2} priority className="resumeImage w-2/4 shadow-lg mb-4 dark:shadow-teal-300 rounded-xl"  alt="resume0"/>
-          <Image src={resume1} priority className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
+          <Image src={ resume0 } priority className="resumeImage w-2/4 shadow-lg mb-4 dark:shadow-teal-300 rounded-xl"  alt="resume0"/>
+          <Image src={ resume1 } priority className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
         </div>
+        <footer className="sm:flex sm:justify-around">
+          <div className='flex sm:flex sm:space-x-3'>
+            <h1 className="text-lg sm:text-2xl mr-1 mb-2 dark:text-gray-300">seanbass99@gmail.com</h1>
+            <CopyToClipboard placeholder="blur" /> 
+          </div>
+          <a href="/resume" className="footerButton bg-gradient-to-r text-1xl sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Resume</a>
+        </footer>
     </div>
   );
 }
