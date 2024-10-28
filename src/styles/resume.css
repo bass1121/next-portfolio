@@ -4,6 +4,7 @@
 
 
 @layer utilities {
+
   .resume {
     .navbar {
       @media (max-width: 1024px) {

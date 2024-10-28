@@ -1,8 +1,8 @@
 import {AiFillGithub, AiFillLinkedin, AiFillFacebook} from 'react-icons/ai';
 import Image from 'next/image';
 import { 
-  myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextjs, pythonIcon, reactIcon, tailwind, flaskPortfolio, nextPortfolio, elleBee
-} from "../utils/images";
+  myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextJSICon, pythonIcon, reactIcon, tailwind, flaskPortfolio, flaskPortfolioCode, nextPortfolio, elleBee
+} from "../utils/images.js";
 import CopyToClipboard from '../utils/copyToClipboard'
 import ThemeSwitcher from '@/utils/ThemeSwitcher';
 
@@ -73,7 +73,7 @@ export default function Home() {
                 </div>
                 <div className="mx-3">
                 <h4 className='icon-title'>Next.js</h4>
-                  <Image className="icon" src={nextjs} alt="Icon" placeholder="empty" />
+                  <Image className="icon" src={nextJSICon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3">
                   <h4 className='icon-title'>MySQL</h4>
@@ -118,7 +118,7 @@ export default function Home() {
                     <Image className='mx-auto w-auto border' src={nextPortfolio} alt='flask pic'/>
                     <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Next.js Personal Portfolio</h3>
                     <p className='py-2 dark:text-gray-800'>
-                      A NextJS portfolio to showcase some of my previous work. It consists of two pages, multiple components, helper functions, imported icons and a dark/light theme that remembers the user's preference. The page is set up for mobile devices.
+                      A NextJS portfolio to showcase some of my previous work. It consists of two pages, multiple components, helper functions, imported icons and a dark theme that remembers the user&#39;s preference. The page is set up for mobile devices.
                     </p>
                     <h4 className='py-4 text-2xl font-medium dark:text-teal-300'>Tools used:</h4>
                     <ol className="grid grid-cols-1 text-base sm:grid-cols-2 md:grid-cols-3">
