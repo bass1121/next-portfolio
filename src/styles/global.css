@@ -26,15 +26,6 @@
     }
   }
 
-  .moon {
-    @media (max-width: 400px) {
-      font-size: 1.5em;
-      right: 30px;
-      top: 40px;
-      position: fixed;
-    }
-  }
-
   .icon {
       @apply 
         w-14
