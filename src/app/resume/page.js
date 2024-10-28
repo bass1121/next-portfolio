@@ -32,7 +32,7 @@ export default function Resume() {
             <h1 className="text-lg sm:text-2xl mr-1 mb-2 dark:text-gray-300">seanbass99@gmail.com</h1>
             <CopyToClipboard placeholder="blur" /> 
           </div>
-          <a href="/resume" className="footerButton bg-gradient-to-r text-1xl sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Resume</a>
+          <a href="/" className="footerButton bg-gradient-to-r text-1xl sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Portfolio</a>
         </footer>
     </div>
   );
