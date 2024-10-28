@@ -1,4 +1,4 @@
 import resume0 from "../../public/images/resume0.jpg";
-import resume1 from "../../public/images/resume1.jpg";
+import resumeSecond from "../../public/images/resumeSecond.jpg";
 
-export { resume0, resume1};
+export { resume0, resumeSecond};

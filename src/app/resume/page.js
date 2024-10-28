@@ -1,7 +1,8 @@
 import ThemeSwitcher from "@/utils/ThemeSwitcher";
 import CopyToClipboard from "@/utils/copyToClipboard";
 import Image from "next/image";
-import { resume0, resume1 } from "../../utils/resumeExp";
+import { resume0 } from "../../utils/resumeExp";
+import { resumeSecond } from "../../utils/resumeExp";
 import "../../styles/resume.css";
 
 export default function Resume() {
@@ -24,7 +25,7 @@ export default function Resume() {
 
         <div className=" place-items-center">
           <Image src={ resume0 } priority className="resumeImage w-2/4 shadow-lg mb-4 dark:shadow-teal-300 rounded-xl"  alt="resume0"/>
-          <Image src={ resume1 } className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
+          <Image src={ resumeSecond } className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
         </div>
         <footer className="sm:flex sm:justify-around">
           <div className='flex sm:flex sm:space-x-3'>
