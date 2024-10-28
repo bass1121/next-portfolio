@@ -30,11 +30,11 @@ export default function Home() {
             <div className='text-center p-10'>
               <h2 className='text-4xl sm:text-5xl py-2 text-teal-500 font-medium'>Sean Bass</h2>
               <h3 className='text-2xl py-2 dark:text-gray-300'>Developer and Designer</h3>
-              <p className='text-lg py-5 leading-8 text-gray-800 dark:text-gray-300'>
+              <p className='text-md sm:text-lg text-center py-5 leading-8 text-gray-800 dark:text-gray-300'>
                 A Junior Developer with Full Stack Certification from Bottega University along with CS-50 certifications. I currently work as a manager/producer for a social media company. I am self motivated, 
                 I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
-                and finding solutions to problems.
-              </p>
+                and finding solutions to problems. I enjoy working through problems finding solutions. I am currently seeking part-time work, free-lance work or a permenant full time job. I hope you like what you see!
+                </p>
               <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
                 <a href="https://www.facebook.com/sean.bass.927?mibextid=JRoKGi"><AiFillFacebook/></a>
                 <a href="https://www.linkedin.com/in/sean-bass-185b18211/"><AiFillLinkedin/></a>
@@ -88,11 +88,6 @@ export default function Home() {
                   <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
               </div>
-                <p className='text-md sm:text-lg text-center py-5 leading-8 text-gray-800 dark:text-gray-300'>
-                A Junior Developer with Full Stack Certification from Bottega University along with CS-50 certifications. I currently work as a manager/producer for a social media company. I am self motivated, 
-                I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
-                and finding solutions to problems.<span className='text-teal-500 text-lg'>some highlighted text</span>
-                </p>
             </div>
           </section>
 
@@ -109,7 +104,7 @@ export default function Home() {
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
                     <h4 className='py-4 font-medium text-2xl dark:text-teal-300'>Tools used:</h4>
-                    <ol className='grid grid-cols-2 sm:grid-cols-3'>
+                    <ol className='grid grid-cols-1 text-base sm:grid-cols-2 md:grid-cols-3'>
                       <li className='text-gray-800 py-1'>Flask</li>
                       <li className='text-gray-800 py-1'>Python</li>
                       <li className='text-gray-800 py-1'>MySQL</li>
@@ -126,7 +121,7 @@ export default function Home() {
                       A NextJS portfolio to showcase some of my previous work. It consists of two pages, multiple components, helper functions, imported icons and a dark/light theme that remembers the user's preference. The page is set up for mobile devices.
                     </p>
                     <h4 className='py-4 text-2xl font-medium dark:text-teal-300'>Tools used:</h4>
-                    <ol className="grid grid-cols-2 sm:grid-cols-3">
+                    <ol className="grid grid-cols-1 text-base sm:grid-cols-2 md:grid-cols-3">
                       <li className='text-gray-800 py-1'>JavaScript</li>
                       <li className='text-gray-800 py-1'>CSS</li>
                       <li className='text-gray-800 py-1'>NextJS</li>
@@ -140,36 +135,20 @@ export default function Home() {
 
                 <div id="card" className='card'>
                     <Image className='mx-auto w-auto border' src={elleBee} alt='flask pic'/>
-                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Next.js Personal Portfolio</h3>
+                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>React Website For Content Creator</h3>
                     <p className='py-2 dark:text-gray-800'>
                       A website created for ElleBee Entertainment, a company that creates content on social media. Consists of links to all of her social media accounts, admin login and edit, a blog page
                       and links to donate to channels. It dynamically updated video list pulling from Youtube's API. It was built with react class components. It utilizes state and props.
                     </p>
                     <h4 className='py-4 text-2xl font-medium text-gray-800 dark:text-teal-300'>Tools used:</h4>
-                    <ol className='grid grid-cols-2 sm:grid-cols-3'>
+                    <ol className='grid grid-cols-1 text-base sm:grid-cols-2 md:grid-cols-3'>
                       <li className='text-gray-800 py-1'>React</li>
                       <li className='text-gray-800 py-1'>MongoDB</li>
                       <li className='text-gray-800 py-1'>SCSS</li>
                       <li className='text-gray-800 py-1'>Google API</li>
                       <li className='text-gray-800 py-1'>VS Code</li>
                       <li className='text-gray-800 py-1'>CSS</li>
-                    </ol>
-                </div>
-
-                <div id="card" className='card'>
-                    <Image className='mx-auto w-auto border' src={nextPortfolio} alt='flask pic'/>
-                    <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Next.js Personal Portfolio</h3>
-                    <p className='py-2 dark:text-gray-800'>
-                      A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
-                      their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
-                    </p>
-                    <h4 className='py-4 text-2xl font-medium dark:text-teal-300'>Tools used:</h4>
-                    <ol className='grid grid-cols-2 sm:grid-cols-3'>
-                      <li className='text-gray-800 py-1'>Flask</li>
-                      <li className='text-gray-800 py-1'>Python</li>
-                      <li className='text-gray-800 py-1'>MySQL</li>
-                      <li className='text-gray-800 py-1'>VS Code</li>
-                      <li className='text-gray-800 py-1'>Werkzeug</li>
+                      <li className='text-gray-800 py-1'>Netlify</li>
                     </ol>
                 </div>
               </div>

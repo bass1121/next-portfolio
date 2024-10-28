@@ -13,7 +13,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script src="https://kit.fontawesome.com/ff073515b8.js" crossOrigin="anonymous"></script>
       </head>
       <body className="{bg-white dark:bg-gray-900`}">
         <ThemeProvider attribute="class" defaultTheme="systemTheme" enableSystem >     
