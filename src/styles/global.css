@@ -17,7 +17,8 @@
   .icon-title {
     @apply 
     text-center 
-    text-xl 
+    text-lg
+    sm:text-xl 
     font-bold 
     text-teal-500;
 
@@ -33,11 +34,13 @@
   }
 
   .icon {
-      @apply 
-        w-14
+      @apply
+        w-12
         h-12 
-        m-4 
-        place-self-center 
+        sm:w-14
+        sm:h-14 
+        m-1
+        sm:m-4  
         dark:bg-white 
         dark:p-2;
   }

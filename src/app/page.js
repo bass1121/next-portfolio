@@ -73,7 +73,7 @@ export default function Home() {
                   <Image className="icon" src={html} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 text-center place-items-center">
-                <h4 className='icon-title'>Next.js</h4>
+                  <h4 className='icon-title'>Next.js</h4>
                   <Image className="icon" src={nextIcon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 text-center place-items-center">
@@ -85,13 +85,13 @@ export default function Home() {
                   <Image className="icon" src={pythonIcon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 text-center place-items-center">
-                <h4 className='icon-title'>Tailwind</h4>
+                  <h4 className='icon-title'>Tailwind</h4>
                   <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
                 <div className='mx-3 text-center place-items-center'>
                   <h4 className='icon-title'>CSS</h4>
-                    <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
-                  </div>
+                  <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
+                </div>
               </div>
             </div>
           </section>
@@ -165,7 +165,7 @@ export default function Home() {
                 <h1 className="text-lg sm:text-2xl mr-1 mb-2 dark:text-gray-300">seanbass99@gmail.com</h1>
                 <CopyToClipboard placeholder="blur" /> 
               </div>
-              <a href="/resume" className="footerButton bg-gradient-to-r text-1xl sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Resume</a>
+              <a href="/resume" className="footerButton bg-gradient-to-r text-lg sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Resume</a>
             </footer>
           </section>
         </main>
