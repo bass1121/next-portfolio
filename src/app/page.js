@@ -42,8 +42,8 @@ export default function Home() {
                 <a href="https://github.com/bass1121"><AiFillGithub/></a>
               </div>
             </div>
-            <div className='relative mx-auto bg-gradient-to-t from-teal-500 rounded-full w-60 h-60 sm:w-90 sm:h-90 mt-10 overflow-hidden'>
-              <Image className="" src={myEmoji} alt="myEmoji" placeholder='blur'/>
+            <div className='w-40 h-40 relative mx-auto place-items-center bg-gradient-to-t from-teal-500 rounded-full sm:w-60 sm:h-60 sm:w-90 sm:h-90 mt-10 overflow-hidden'>
+              <Image className="w-50 sm:w-72" src={myEmoji} alt="myEmoji" placeholder='blur'/>
             </div>
           </section>
 
@@ -52,43 +52,43 @@ export default function Home() {
             <div className='m-1 sm:m-10 md:m-20'>
               <h3 className='text-xl text-center underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium'>Tools I Use:</h3>
               <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
-                <div className=' mx-3'>
+                <div className='mx-3 text-center place-items-center'>
                   <h4 className='icon-title'>React</h4>
                   <Image className="icon" src={reactIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                   <h4 className='icon-title'>Flask</h4>
                   <Image className="icon" src={flaskIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                   <h4 className='icon-title'>C</h4>
                   <Image className="icon" src={cIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                   <h4 className='icon-title'>Github</h4>
                   <Image className="icon" src={githubIcon} alt="Icon" placeholder="empty" />  
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                   <h4 className='icon-title'>HTML</h4>
                   <Image className="icon" src={html} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                 <h4 className='icon-title'>Next.js</h4>
                   <Image className="icon" src={nextIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                   <h4 className='icon-title'>MySQL</h4>
                   <Image className="icon" src={mysqlIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                   <h4 className='icon-title'>Python</h4>
                   <Image className="icon" src={pythonIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center">
+                <div className="mx-3 text-center place-items-center">
                 <h4 className='icon-title'>Tailwind</h4>
                   <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
-                <div className='mx-3 text-center'>
+                <div className='mx-3 text-center place-items-center'>
                   <h4 className='icon-title'>CSS</h4>
                     <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
                   </div>
