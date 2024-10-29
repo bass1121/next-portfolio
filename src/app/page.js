@@ -1,7 +1,7 @@
 import {AiFillGithub, AiFillLinkedin, AiFillFacebook} from 'react-icons/ai';
 import Image from 'next/image';
 import { 
-  myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextIcon, pythonIcon, reactIcon, tailwind, flaskPortfolio, flaskPortfolioCode, nextPortfolio, elleBee
+  myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextIcon, pythonIcon, reactIcon, tailwind, flaskPortfolio, cssIcon, nextPortfolio, elleBee
 } from "../utils/images.js";
 import CopyToClipboard from '../utils/copyToClipboard'
 import ThemeSwitcher from '@/utils/ThemeSwitcher';
@@ -50,44 +50,48 @@ export default function Home() {
           {/* Section 2 */}
           <section>
             <div className='m-1 sm:m-10 md:m-20'>
-              <h3 className='text-2xl font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium'>Tools I Use:</h3>
-              <div className='grid grid-cols-3 m-1 text-md sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
+              <h3 className='text-xl text-center underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium'>Tools I Use:</h3>
+              <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
                 <div className=' mx-3'>
-                <h4 className='icon-title'>React</h4>
+                  <h4 className='icon-title'>React</h4>
                   <Image className="icon" src={reactIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                   <h4 className='icon-title'>Flask</h4>
                   <Image className="icon" src={flaskIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                   <h4 className='icon-title'>C</h4>
                   <Image className="icon" src={cIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                   <h4 className='icon-title'>Github</h4>
                   <Image className="icon" src={githubIcon} alt="Icon" placeholder="empty" />  
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                   <h4 className='icon-title'>HTML</h4>
                   <Image className="icon" src={html} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                 <h4 className='icon-title'>Next.js</h4>
                   <Image className="icon" src={nextIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                   <h4 className='icon-title'>MySQL</h4>
                   <Image className="icon" src={mysqlIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                   <h4 className='icon-title'>Python</h4>
                   <Image className="icon" src={pythonIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3">
+                <div className="mx-3 text-center">
                 <h4 className='icon-title'>Tailwind</h4>
                   <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
+                <div className='mx-3 text-center'>
+                  <h4 className='icon-title'>CSS</h4>
+                    <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
+                  </div>
               </div>
             </div>
           </section>
@@ -95,7 +99,7 @@ export default function Home() {
           {/* Section 3 */}
           <section>
             <div className='m-0 sm:m-10 md:m-20'>
-                <h2 className='pb-3 font-medium text-2xl sm:text-3xl dark:text-teal-500 dark:font-medium'>Examples of previous work:</h2>
+                <h2 className='text-center underline pb-3 font-medium text-xl sm:text-3xl dark:text-teal-500 dark:font-medium'>Examples of previous work:</h2>
               <div className='flex flex-col place-items-center justify-items-center'>
                 <div id="card" className='card'>
                     <Image className='w-auto mx-auto border' src={flaskPortfolio} alt='flask pic'/>
