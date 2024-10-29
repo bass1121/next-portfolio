@@ -36,7 +36,7 @@ export default function Home() {
                 I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
                 and finding solutions to problems. I enjoy working through problems finding solutions. I am currently seeking part-time work, free-lance work or a permenant full time job. I hope you like what you see!
                 </p>
-              <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+              <div className='text-4xl sm:text-5xl flex justify-center gap-16 py-3 text-gray-600'>
                 <a href="https://www.facebook.com/sean.bass.927?mibextid=JRoKGi"><AiFillFacebook/></a>
                 <a href="https://www.linkedin.com/in/sean-bass-185b18211/"><AiFillLinkedin/></a>
                 <a href="https://github.com/bass1121"><AiFillGithub/></a>
