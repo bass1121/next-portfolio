@@ -96,7 +96,7 @@ export default function Home() {
           <section>
             <div className='m-0 sm:m-10 md:m-20'>
                 <h2 className='pb-3 font-medium text-2xl sm:text-3xl dark:text-teal-500 dark:font-medium'>Examples of previous work:</h2>
-              <div className='place-items-center justify-items-center'>
+              <div className='flex flex-col place-items-center justify-items-center'>
                 <div id="card" className='card'>
                     <Image className='w-auto mx-auto border' src={flaskPortfolio} alt='flask pic'/>
                     <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Flask Portfolio Website</h3>
