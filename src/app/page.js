@@ -23,7 +23,7 @@ export default function Home() {
                   <ThemeSwitcher />
                 </li>
                 <li>
-                  <a href="/resume" className="bg-gradient-to-r text-1xl sm:text-2xl from-cyan-500 to-teal-500 text-white px-5 rounded-md sm:ml-4">Resume</a>
+                  <a href="/resume" className="bg-gradient-to-r text-xl sm:text-2xl from-cyan-500 to-teal-500 text-white px-5 rounded-md sm:ml-4">Resume</a>
                 </li>
               </ul>
             </nav>
@@ -160,9 +160,9 @@ export default function Home() {
             </div>
           </section>
           <section>
-            <footer className="sm:flex sm:justify-around">
+            <footer className="sm:flex font-mono sm:justify-around">
               <div className='flex sm:flex sm:space-x-3'>
-                <h1 className="text-lg sm:text-2xl mr-1 mb-2 dark:text-gray-300">seanbass99@gmail.com</h1>
+                <h1 className="text-lg sm:text-2xl mr-1 mb-2 font-mono dark:text-gray-300">seanbass99@gmail.com</h1>
                 <CopyToClipboard placeholder="blur" /> 
               </div>
               <a href="/resume" className="footerButton bg-gradient-to-r text-lg sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Resume</a>

@@ -27,12 +27,12 @@ export default function Resume() {
           <Image src={ resume0 } priority className="resumeImage w-2/4 shadow-lg mb-4 dark:shadow-teal-300 rounded-xl"  alt="resume0"/>
           <Image src={ resumeSecond } className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
         </div>
-        <footer className="sm:flex sm:justify-around">
+        <footer className="sm:flex font-mono sm:justify-around">
           <div className='flex sm:flex sm:space-x-3'>
             <h1 className="text-lg sm:text-2xl mr-1 mb-2 dark:text-gray-300">seanbass99@gmail.com</h1>
             <CopyToClipboard placeholder="blur" /> 
           </div>
-          <a href="/" className="footerButton bg-gradient-to-r text-1xl sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Portfolio</a>
+          <a href="/" className="footerButton bg-gradient-to-r text-lg sm:text-2xl h-max from-cyan-500 to-teal-500 text-white px-5 rounded-md">Portfolio</a>
         </footer>
     </div>
   );
