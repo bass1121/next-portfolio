@@ -28,10 +28,10 @@ export default function Home() {
               </ul>
             </nav>
 
-            <div className='text-center p-10'>
+            <div className='text-center sm:p-10'>
               <h2 className='text-4xl sm:text-5xl py-2 text-teal-500 font-medium'>Sean Bass</h2>
               <h3 className='text-2xl py-2 dark:text-gray-300'>Developer and Designer</h3>
-              <p className='text-md sm:text-lg text-center py-5 leading-8 text-gray-800 dark:text-gray-300'>
+              <p className='text-sm sm:text-lg text-center sm:py-5 leading-8 text-gray-800 dark:text-gray-300'>
                 A Junior Developer with Full Stack Certification from Bottega University along with CS-50 certifications. I currently work as a manager/producer for a social media company. I am self motivated, 
                 I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
                 and finding solutions to problems. I enjoy working through problems finding solutions. I am currently seeking part-time work, free-lance work or a permenant full time job. I hope you like what you see!
@@ -49,46 +49,46 @@ export default function Home() {
 
           {/* Section 2 */}
           <section>
-            <div className='m-1 sm:m-10 md:m-20'>
+            <div className='m-1 sm:m-10 md:m-20 mb-2'>
               <h3 className='text-xl text-center underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium'>Tools I Use:</h3>
               <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
-                <div className='mx-3 text-center place-items-center'>
+                <div className='mx-3 flex flex-col justify-center place-items-center'>
                   <h4 className='icon-title'>React</h4>
                   <Image className="icon" src={reactIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Flask</h4>
                   <Image className="icon" src={flaskIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>C</h4>
                   <Image className="icon" src={cIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Github</h4>
                   <Image className="icon" src={githubIcon} alt="Icon" placeholder="empty" />  
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>HTML</h4>
                   <Image className="icon" src={html} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Next.js</h4>
                   <Image className="icon" src={nextIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>MySQL</h4>
                   <Image className="icon" src={mysqlIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Python</h4>
                   <Image className="icon" src={pythonIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 text-center place-items-center">
+                <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Tailwind</h4>
                   <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
-                <div className='mx-3 text-center place-items-center'>
+                <div className='mx-3 flex flex-col justify-center place-items-center'>
                   <h4 className='icon-title'>CSS</h4>
                   <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
                 </div>
@@ -98,8 +98,8 @@ export default function Home() {
 
           {/* Section 3 */}
           <section>
-            <div className='m-0 sm:m-10 md:m-20'>
-                <h2 className='text-center underline pb-3 font-medium text-xl sm:text-3xl dark:text-teal-500 dark:font-medium'>Examples of previous work:</h2>
+            <div className='mt-10 sm:m-10 md:m-20'>
+              <h2 className='text-center underline sm:pb-3 mb-0 font-medium text-2xl sm:text-3xl dark:text-teal-500 dark:font-medium'>Examples of previous work:</h2>
               <div className='flex flex-col place-items-center justify-items-center'>
                 <div id="card" className='card'>
                     <Image className='w-auto mx-auto border' src={flaskPortfolio} alt='flask pic'/>
