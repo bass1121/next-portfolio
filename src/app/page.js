@@ -54,11 +54,11 @@ export default function Home() {
               <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
                 <div className='mx-3 flex flex-col justify-center place-items-center'>
                   <h4 className='icon-title'>React</h4>
-                  <Image className="icon" src={reactIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon w-16" src={reactIcon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Flask</h4>
-                  <Image className="icon" src={flaskIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon bg-white" src={flaskIcon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>C</h4>
@@ -66,7 +66,7 @@ export default function Home() {
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Github</h4>
-                  <Image className="icon" src={githubIcon} alt="Icon" placeholder="empty" />  
+                  <Image className="icon white" src={githubIcon} alt="Icon" placeholder="empty" />  
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>HTML</h4>
@@ -78,19 +78,19 @@ export default function Home() {
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>MySQL</h4>
-                  <Image className="icon" src={mysqlIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon bg-white" src={mysqlIcon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Python</h4>
-                  <Image className="icon" src={pythonIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon bg-white" src={pythonIcon} alt="Icon" placeholder="empty" />
                 </div>
                 <div className="mx-3 flex flex-col justify-center place-items-center">
                   <h4 className='icon-title'>Tailwind</h4>
-                  <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
+                  <Image className="icon bg-white" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
                 <div className='mx-3 flex flex-col justify-center place-items-center'>
                   <h4 className='icon-title'>CSS</h4>
-                  <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon bg-white" src={cssIcon} alt="Icon" placeholder="empty" />
                 </div>
               </div>
             </div>
