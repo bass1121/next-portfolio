@@ -23,7 +23,7 @@ export default function Resume() {
             </ul>
         </nav>
 
-        <div className=" place-items-center">
+        <div className="mb-10  place-items-center">
           <Image src={ resume0 } priority className="resumeImage w-2/4 shadow-lg mb-4 dark:shadow-teal-300 rounded-xl"  alt="resume0"/>
           <Image src={ resumeSecond } className="resumeImage w-2/4 shadow-lg mb-2 dark:shadow-teal-300 rounded-xl"  alt="resume1"/>
         </div>
