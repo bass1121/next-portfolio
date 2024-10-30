@@ -50,47 +50,47 @@ export default function Home() {
           {/* Section 2 */}
           <section>
             <div className='m-1 sm:m-10 md:m-20 mb-2'>
-              <h2 className='text-2xl text-center underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium'>Tools I Use:</h2>
-              <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
-                <div className='mx-3 pb-2 flex flex-col justify-center place-items-center'>
+              <h2 className='text-2xl underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium text-center'>Tools I Use:</h2>
+              <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 justify-center items-center text-center sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
+                <div className='icon-wrapper'>
                   <h4 className='icon-title'>React</h4>
-                  <Image className="icon w-16" src={reactIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon " src={reactIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>Flask</h4>
-                  <Image className="icon bg-white" src={flaskIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon" src={flaskIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>C</h4>
                   <Image className="icon" src={cIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>Github</h4>
-                  <Image className="icon white" src={githubIcon} alt="Icon" placeholder="empty" />  
+                  <Image className="icon" src={githubIcon} alt="Icon" placeholder="empty" />  
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>HTML</h4>
                   <Image className="icon" src={html} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>Next.js</h4>
                   <Image className="icon" src={nextIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>MySQL</h4>
-                  <Image className="icon bg-white" src={mysqlIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon" src={mysqlIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>Python</h4>
-                  <Image className="icon bg-white" src={pythonIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon" src={pythonIcon} alt="Icon" placeholder="empty" />
                 </div>
-                <div className="mx-3 pb-2 flex flex-col justify-center place-items-center">
+                <div className="icon-wrapper">
                   <h4 className='icon-title'>Tailwind</h4>
-                  <Image className="icon bg-white" src={tailwind} alt="Icon" placeholder="empty" />
+                  <Image className="icon" src={tailwind} alt="Icon" placeholder="empty" />
                 </div>
-                <div className='mx-3 flex flex-col justify-center place-items-center'>
+                <div className='icon-wrapper'>
                   <h4 className='icon-title'>CSS</h4>
-                  <Image className="icon bg-white" src={cssIcon} alt="Icon" placeholder="empty" />
+                  <Image className="icon" src={cssIcon} alt="Icon" placeholder="empty" />
                 </div>
               </div>
             </div>

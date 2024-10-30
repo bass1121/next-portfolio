@@ -32,17 +32,29 @@
     }
   }
 
+  icon-wrapper {
+    @apply 
+      mx-3
+      pb-2
+      text-center
+      place-items-center
+      items-center
+      justify-center;
+  }
+
   .icon {
-      @apply
-        w-12
-        h-12 
-        sm:w-14
-        sm:h-14 
-        m-1
-        sm:m-4
-        dark:p-1
-        rounded-sm
-        ;
+    @apply
+      w-12
+      h-12 
+      sm:w-14
+      sm:h-14 
+      m-1
+      sm:m-4
+      dark:p-1
+      rounded-sm
+      shadow-white
+      justify-self-center
+      dark:bg-slate-600;
   }
 
 
