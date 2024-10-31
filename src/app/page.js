@@ -51,7 +51,7 @@ export default function Home() {
           <section>
             <div className='m-1 sm:m-10 md:m-20 mb-2'>
               <h2 className='text-2xl underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium text-center'>Tools I Use:</h2>
-              <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 justify-center items-center text-center sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
+              <div className='grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
                 <div className='icon-wrapper'>
                   <h4 className='icon-title'>React</h4>
                   <Image className="icon " src={reactIcon} alt="Icon" placeholder="empty" />

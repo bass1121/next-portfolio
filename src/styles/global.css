@@ -15,7 +15,8 @@
   }
 
   .icon-title {
-    @apply 
+    @apply
+    text-center 
     text-lg
     sm:text-xl 
     font-bold 
@@ -36,11 +37,9 @@
     @apply 
       mx-3
       pb-2
-      text-center
-      place-items-center
-      items-center
       justify-center;
   }
+
 
   .icon {
     @apply
@@ -55,6 +54,12 @@
       shadow-white
       justify-self-center
       dark:bg-slate-600;
+
+      img {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
   }
 
 
