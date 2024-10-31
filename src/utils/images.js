@@ -12,5 +12,6 @@ import flaskPortfolio from "../../public/images/flaskPortfolio.png";
 import nextPortfolio from "../../public/images/nextPortfolio.png"; 
 import elleBee from "../../public/images/elleBeeOriginal.png";
 import cssIcon from "../../public/images/css.png"
+import profilePic from "../../public/images/profilePic.jpg"
 
-export { myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextIcon, pythonIcon, reactIcon, tailwind, flaskPortfolio, nextPortfolio, elleBee, cssIcon };
+export { myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextIcon, pythonIcon, reactIcon, tailwind, flaskPortfolio, nextPortfolio, elleBee, cssIcon, profilePic };

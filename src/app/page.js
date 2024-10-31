@@ -1,11 +1,10 @@
 import {AiFillGithub, AiFillLinkedin, AiFillFacebook} from 'react-icons/ai';
 import Image from 'next/image';
 import { 
-  myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextIcon, pythonIcon, reactIcon, tailwind, flaskPortfolio, cssIcon, nextPortfolio, elleBee
+  myEmoji, cIcon, flaskIcon, githubIcon, html, mysqlIcon, nextIcon, pythonIcon, reactIcon, tailwind, flaskPortfolio, cssIcon, nextPortfolio, elleBee, profilePic
 } from "../utils/images.js";
 import CopyToClipboard from '../utils/copyToClipboard'
 import ThemeSwitcher from '@/utils/ThemeSwitcher';
-import next from 'next';
 
 
 export default function Home() {

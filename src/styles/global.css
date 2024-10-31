@@ -13,6 +13,22 @@
       margin: 0px;
     }
   }
+  .navbar {
+    @media (max-width: 1024px) {
+      margin-right: 20px;
+    }
+  }
+  
+  icon-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+   
+    @apply 
+      mx-3
+      pb-2
+      justify-center;
+  }
 
   .icon-title {
     @apply
@@ -26,20 +42,6 @@
       font-size: 1em;
     }
   }
-
-  .navbar {
-    @media (max-width: 1024px) {
-      margin-right: 20px;
-    }
-  }
-
-  icon-wrapper {
-    @apply 
-      mx-3
-      pb-2
-      justify-center;
-  }
-
 
   .icon {
     @apply
