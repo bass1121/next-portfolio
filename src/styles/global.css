@@ -56,12 +56,6 @@
       shadow-white
       justify-self-center
       dark:bg-slate-600;
-
-      img {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-      }
   }
 
 
