@@ -8,23 +8,11 @@
     text-wrap: balance;
   }
 
-  main {
-    @media (max-width: 300px;) {
-      margin: 0px;
-    }
-  }
-  .navbar {
-    @media (max-width: 1024px) {
-      margin-right: 20px;
-    }
-  }
-
   .icon-wrapper {
     flex-direction: row;
     align-items: center;
     
     @media(max-width: 400px) {
-      display: flex;
     }
 
     @apply 
@@ -59,14 +47,14 @@
       shadow-white
       justify-self-center
       dark:bg-slate-600;
+  }
 
+  .icon {
     @media (max-width: 400px) {
       width: 30px;
       height: 30px;
-      padding: 0px;
     }
   }
-
 
 
   .card {
