@@ -18,12 +18,22 @@
       margin-right: 20px;
     }
   }
-  
-  icon-wrapper {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-   
+
+  .icon-grid {
+    @media(max-width: 400px) {
+      display: flex;
+      justify-items: flex-end;
+    }
+  }
+
+  .icon-wrapper {
+    flex-direction: row;
+    align-items: center;
+    
+    @media(max-width: 400px) {
+      display: flex;
+    }
+
     @apply 
       mx-3
       pb-2
@@ -56,6 +66,12 @@
       shadow-white
       justify-self-center
       dark:bg-slate-600;
+
+    @media (max-width: 400px) {
+      width: 30px;
+      height: 30px;
+      padding: 0px;
+    }
   }
 
 
