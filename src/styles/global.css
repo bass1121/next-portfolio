@@ -19,13 +19,6 @@
     }
   }
 
-  .icon-grid {
-    @media(max-width: 400px) {
-      display: flex;
-      justify-items: flex-end;
-    }
-  }
-
   .icon-wrapper {
     flex-direction: row;
     align-items: center;
