@@ -32,8 +32,8 @@ export default function Home() {
               <h3 className='text-2xl py-2 dark:text-gray-300'>Developer and Designer</h3>
               <p className='text-sm sm:text-lg text-center sm:py-5 leading-8 text-gray-800 dark:text-gray-300'>
                 A Junior Developer with Full Stack Certification from Bottega University along with CS-50 certifications. I currently work as a manager/producer for a social media company. I am self motivated, 
-                I have a growth oriented mindset and I value a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
-                and finding solutions to problems. I enjoy working through problems finding solutions. I am currently seeking part-time work, free-lance work or a permenant full time job. I hope you like what you see!
+                I have a growth oriented mindset and I value maintaining a postitive mindset in the worst situations. I enjoy designing websites, learning new things, working on a team, 
+                and finding solutions to problems. I am currently seeking part-time work, free-lance work or a permanent full time job. I hope you like what you see!
                 </p>
               <div className='text-4xl sm:text-5xl flex justify-center gap-16 py-3 text-gray-600'>
                 <a href="https://www.facebook.com/sean.bass.927?mibextid=JRoKGi"><AiFillFacebook/></a>
@@ -41,8 +41,8 @@ export default function Home() {
                 <a href="https://github.com/bass1121"><AiFillGithub/></a>
               </div>
             </div>
-            <div className='w-40 h-40 relative mx-auto place-items-center bg-gradient-to-t from-teal-500 rounded-full sm:w-60 sm:h-60 sm:w-90 sm:h-90 mt-10 overflow-hidden'>
-              <Image className="w-50 sm:w-72" src={myEmoji} alt="myEmoji" placeholder='blur'/>
+            <div className='w-40 h-40 relative mb-2 mx-auto place-items-center bg-gradient-to-t from-teal-500 rounded-full sm:w-60 sm:h-60 sm:w-90 sm:h-90 mt-10 overflow-hidden'>
+              <Image className="w-50 sm:w-72" src={profilePic} alt="myEmoji" placeholder='blur'/>
             </div>
           </section>
 
@@ -50,7 +50,7 @@ export default function Home() {
           <section>
             <div className='m-1 sm:m-10 md:m-20 mb-2'>
               <h2 className='text-2xl underline font-medium sm:text-3xl py-1 dark:text-teal-500 dark:font-medium text-center'>Tools I Use:</h2>
-              <div className='icon-grid grid grid-cols-2 m-1 text-md sm:grid-cols-3 sm:py-5 leading-8 w-100% md:grid md:grid-cols-5'>
+              <div className='icon-grid'>
                 <div className='icon-wrapper'>
                   <h4 className='icon-title'>React</h4>
                   <Image className="icon " src={reactIcon} alt="Icon" placeholder="empty" />
@@ -104,7 +104,7 @@ export default function Home() {
                     <Image className='w-auto mx-auto border' src={flaskPortfolio} alt='flask pic'/>
                     <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>Flask Portfolio Website</h3>
                     <p className='py-2 text-gray-800'>
-                      A flask website that uses MySQL for a database. The user can create an account, login to the website, update, 
+                      A flask website that uses MySQL for a database. The user can create an account, login to the website, update 
                       their account information and upload portfolio and resume information. App includes form verification, password verification and password encryption.
                     </p>
                     <h4 className='py-4 font-medium text-2xl dark:text-teal-300'>Tools used:</h4>
@@ -142,7 +142,7 @@ export default function Home() {
                     <h3 className='text-2xl font-medium pt-8 pb-2 dark:text-teal-300'>React Website For Content Creator</h3>
                     <p className='py-2 dark:text-gray-800'>
                       A website created for ElleBee Entertainment, a company that creates content on social media. Consists of links to all of her social media accounts, admin login and edit, a blog page
-                      and links to donate to channels. It dynamically updated video list pulling from Youtube's API. It was built with react class components. It utilizes state and props.
+                      and links to donate to the channel. It dynamically updates a video list using Youtube's API. It was built with react class components. It utilizes state and props.
                     </p>
                     <h4 className='py-4 text-2xl font-medium text-gray-800 dark:text-teal-300'>Tools used:</h4>
                     <ol className='grid grid-cols-1 text-base sm:grid-cols-2 md:grid-cols-3'>

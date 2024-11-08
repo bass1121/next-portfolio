@@ -8,11 +8,28 @@
     text-wrap: balance;
   }
 
-  .icon-wrapper {
-    flex-direction: row;
-    align-items: center;
-    
+  .icon-grid {
+    @apply
+    grid 
+    grid-cols-2 
+    m-1  
+    sm:grid-cols-3 
+    sm:py-5 leading-8 
+    md:grid 
+    md:grid-cols-5;
+
     @media(max-width: 400px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .icon-wrapper {
+    @media(max-width: 400px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
     }
 
     @apply 
